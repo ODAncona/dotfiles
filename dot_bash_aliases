@@ -1,0 +1,53 @@
+# Support des couleurs pour ls et grep
+if command -v dircolors >/dev/null 2>&1; then
+    eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias grep='grep --color=auto'
+fi
+
+# Alias personnalisés
+alias ll='ls -la --group-directories-first'
+alias la='ls -A'
+alias l='ls -CF'
+alias python='python3'
+
+# Alias de navigation rapide
+alias s3='cd /home/olivier/Documents/heig/s3/'
+alias s4='cd /home/olivier/Documents/heig/s4/'
+alias s5='cd /home/olivier/Documents/heig/s5/ && ls -lag'
+alias s6='cd /home/olivier/Documents/heig/s6/ && ls -lag'
+alias pi='cd /home/olivier/projet/pi/monorepo'
+
+# Alias pour les sous-répertoires S3
+alias poo='cd /home/olivier/Documents/heig/s3/poo/labo'
+alias pst='cd /home/olivier/Documents/heig/s3/pst/'
+alias bdr='cd /home/olivier/Documents/heig/s3/bdr/projet'
+alias api='cd /home/olivier/Documents/heig/s3/api/labo'
+alias bs='cd /home/olivier/projet/beausite'
+alias projet='cd /home/olivier/projet/'
+
+# Alias pour les sous-répertoires S4
+alias cld='cd /home/olivier/Documents/heig/s4/cld'
+alias mac='cd /home/olivier/Documents/heig/s4/mac'
+alias arn='cd /home/olivier/Documents/heig/s4/arn/labo'
+alias gre='cd /home/olivier/Documents/heig/s4/gre'
+alias dil='cd /home/olivier/Documents/heig/s4/dil/labo'
+alias god='cd /home/olivier/Documents/heig/s4/god'
+alias pcd='cd /home/olivier/Documents/heig/s4/pcd/labo'
+alias vid='cd /home/olivier/Documents/heig/s4/vid'
+
+# Alias pour les sous-répertoires S5
+alias apn='cd /home/olivier/Documents/heig/s5/apn'
+alias apv='cd /home/olivier/Documents/heig/s5/apv'
+alias bui='cd /home/olivier/Documents/heig/s5/bui'
+alias cnm='cd /home/olivier/Documents/heig/s5/cnm'
+alias eal='cd /home/olivier/Documents/heig/s5/eal'
+alias gml='cd /home/olivier/Documents/heig/s5/gml'
+alias ist='cd /home/olivier/Documents/heig/s5/ist'
+alias sio='cd /home/olivier/Documents/heig/s5/sio'
+
+# Alias pour les sous-répertoires S6
+alias tal='cd /home/olivier/Documents/heig/s6/tal'
+alias min='cd /home/olivier/Documents/heig/s6/min'
+alias iaa='cd /home/olivier/Documents/heig/s6/iaa'
+alias tb='cd /home/olivier/Documents/heig/s6/tb'
