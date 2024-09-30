@@ -12,7 +12,9 @@ alias l='ls -CF'
 alias python='python3'
 
 # Alias de navigation rapide
-alias s3='cd /home/olivier/Documents/heig/s3/'
+alias s1='cd /home/olivier/Documents/master/s1/ && ls -lag'
+alias s2='cd /home/olivier/Documents/master/s2/ && ls -lag'
+alias s3='cd /home/olivier/Documents/master/s3/ && ls -lag'
 alias s4='cd /home/olivier/Documents/heig/s4/'
 alias s5='cd /home/olivier/Documents/heig/s5/ && ls -lag'
 alias s6='cd /home/olivier/Documents/heig/s6/ && ls -lag'
@@ -51,3 +53,27 @@ alias tal='cd /home/olivier/Documents/heig/s6/tal'
 alias min='cd /home/olivier/Documents/heig/s6/min'
 alias iaa='cd /home/olivier/Documents/heig/s6/iaa'
 alias tb='cd /home/olivier/Documents/heig/s6/tb'
+
+# S1
+alias aw='cd /home/olivier/Documents/master/s1/CM_AcWritPre'
+alias alg='cd /home/olivier/Documents/master/s1/FTP_Alg'
+alias mle='cd /home/olivier/Documents/master/s1/FTP_MachLe'
+alias iot='cd /home/olivier/Documents/master/s1/MA_IoT'
+alias asd='cd /home/olivier/Documents/master/s1/TSM_AnSeqDa'
+alias cld='cd /home/olivier/Documents/master/s1/TSM_CloudSys'
+
+# S2
+alias opt='cd /home/olivier/Documents/master/s2/FTP_Optimiz'
+alias ama='cd /home/olivier/Documents/master/s2/MA_AdMoApp'
+alias cn='cd /home/olivier/Documents/master/s2/MA_Asian'
+alias nde='cd /home/olivier/Documents/master/s2/MA_NTDE'
+alias pi='cd /home/olivier/Documents/master/s2/PI'
+alias dl='cd /home/olivier/Documents/master/s2/TSM_DeLearn'
+
+# S3
+alias apm='cd /home/olivier/Documents/master/s3/CM_AdvProjMgmt'
+alias pl='cd /home/olivier/Documents/master/s3/CM_PrivLaw'
+alias mlbd='cd /home/olivier/Documents/master/s3/MA_MLBD'
+alias pa='cd /home/olivier/Documents/master/s3/PA'
+alias dm='cd /home/olivier/Documents/master/s3/TSM_DataMgmt'
+alias mld='cd /home/olivier/Documents/master/s3/TSM_MachLeData'

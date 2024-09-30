@@ -103,3 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Charger les alias supplementaires depuis ~/.bash_aliases si disponible
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
